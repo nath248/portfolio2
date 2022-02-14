@@ -41,6 +41,10 @@
   font-size: 14px;
 }
 
+.hide {
+  display: none;
+}
+
 @media only screen and (max-width: 1300px) {
   .carousel-slider {
     width: 750px;
@@ -65,7 +69,7 @@
   .carousel-slider {
     padding: 10px 40px;
     width: 450px;
-    height: 420px;
+    height: 630px;
   }
   .carousel-slider .title-h3 {
     font-size: 18px;
@@ -84,6 +88,15 @@
   }
   .caption-h3 {
     font-size: 12px;
+  }
+  .hide {
+    display: block;
+    background-color: rgb(253, 110, 110);
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
   }
 }
 
