@@ -42,7 +42,7 @@ function CarouselSlider() {
             <a href="https://getting-quizzy-wit-it.netlify.app/">
               <img
                 className="d-block w-100"
-                src="https://res.cloudinary.com/dojhf40bp/image/upload/c_scale,h_502,w_652/v1643929787/gqwi-img_a2dkqa.png"
+                src="https://res.cloudinary.com/dojhf40bp/image/upload/c_scale,h_502,w_652/v1644876645/quizzy-app_ukn1yw.png"
                 alt="Second slide"
               />
             </a>

@@ -103,7 +103,7 @@
 @media only screen and (max-width: 550px) {
   .carousel-slider {
     width: 340px;
-    height: 350px;
+    height: 600px;
     padding: 0px 10px 45px 10px;
   }
   .carousel-slider .title-h3 {
