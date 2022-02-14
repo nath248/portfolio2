@@ -1,0 +1,77 @@
+.interest-main {
+  background-color: rgb(253, 110, 110);
+  margin: 0 10px;
+  height: 500px;
+  width: 200px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 40px;
+  padding: 0 20px;
+}
+
+.interest-title h3 {
+  padding: 40px 20px;
+  text-decoration: underline;
+}
+
+.interest-details p {
+  padding: 20px 20px;
+}
+
+.interest-details p span {
+  color: #3f7692;
+}
+
+@media only screen and (max-width: 1300px) {
+  .interest-main {
+    margin: 0 10px;
+    margin-top: 30px;
+    height: 200px;
+    width: 500px;
+  }
+
+  .interest-title h3 {
+    padding: 20px 10px;
+    font-size: 22px;
+  }
+
+  .interest-details p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .interest-main {
+    height: 180px;
+    width: 380px;
+  }
+
+  .interest-title h3 {
+    font-size: 18px;
+  }
+
+  .interest-details p {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .interest-main {
+    height: 180px;
+    width: 260px;
+  }
+
+  .interest-title h3 {
+    font-size: 14px;
+  }
+
+  .interest-details p {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+}

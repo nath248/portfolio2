@@ -1,0 +1,70 @@
+.certs {
+  margin: 40px 0 20px 0;
+  background: rgba(71, 207, 241, 0.546);
+  transition: all 0.22s ease-in-out;
+  box-shadow: 0 8px 62px 0 rgba(0, 17, 255, 0.37);
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 80px 40px;
+  width: 800px;
+  height: 700px;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.cert-img {
+  width: 450px;
+  margin: 8px 0;
+}
+
+.cert-img2 {
+  width: 300px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .certs {
+    margin: 40px 0 20px 0;
+    padding: 80px 40px;
+    width: 750px;
+    height: 680px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .certs {
+    width: 450px;
+    height: 480px;
+  }
+
+  .cert-img {
+    width: 350px;
+  }
+
+  .cert-img2 {
+    width: 200px;
+    height: 300px;
+    margin: 8px 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .certs {
+    width: 340px;
+    height: 450px;
+  }
+
+  .cert-img {
+    width: 250px;
+  }
+
+  .cert-img2 {
+    width: 150px;
+    height: 200px;
+  }
+}

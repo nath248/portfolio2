@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home/Home'
+import AboutMe from './components/AboutMe/AboutMe';
+import CarouselSlider from './components/CarouselSlider/CarouselSlider';
+import ContactMe from './components/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
+import Certs from './components/Certs/Certs';
+import Navbar from './components/Nav/Navbar';
+import NavTitle from './components/Nav/NavTitle';
+import Interests from './components/Interests/Interests';
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
+    <div className='main-app'>
+      <NavTitle />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-me" element={<AboutMe />}/>
+        <Route path="/projects" element={<CarouselSlider />}/>
+        <Route path="/contact-me" element={<ContactMe />}/>
+        <Route path="/certs" element={<Certs />}/>
+        </Routes>
+        <Interests />
+    </div>
+      <Footer />
     </div>
   );
 }

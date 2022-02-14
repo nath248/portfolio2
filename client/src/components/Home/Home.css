@@ -1,0 +1,230 @@
+.home {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.header-home {
+  font-size: 60px;
+  color: rgb(253, 110, 110);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-sub-text {
+  color: white;
+  font-size: 26px;
+  padding: 43px 0 10px 0;
+  text-align: center;
+}
+
+.glass {
+  background: rgba(71, 207, 241, 0.546);
+  transition: all 0.22s ease-in-out;
+  box-shadow: 0 8px 62px 0 rgba(0, 17, 255, 0.37);
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 90px 20px;
+  width: 800px;
+  height: auto;
+}
+
+.glass:hover {
+  transform: scale(1.03);
+}
+
+.text-wrapper {
+  display: inline-flex;
+  margin: 10px 0;
+}
+
+.text-wrapper .static {
+  color: white;
+  font-size: 30px;
+}
+
+.text-wrapper .dynamic,
+.text-wrapper .dynamic-list {
+  color: rgb(253, 110, 110);
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.text-wrapper .dynamic-list {
+  line-height: 40px;
+  margin-left: 15px;
+  height: 40px;
+}
+
+.dynamic li {
+  list-style: none;
+  font-size: 30px;
+}
+
+.dynamic-list li {
+  list-style: none;
+  font-size: 30px;
+  position: relative;
+  top: 0;
+  animation: slide 9s steps(3) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -120px;
+  }
+}
+
+.dynamic li span,
+.dynamic-list li span {
+  position: relative;
+}
+
+.dynamic li span::after,
+.dynamic-list li span::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(62, 116, 146);
+  border-left: 2px solid rgb(253, 110, 110);
+  animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .home {
+    margin-top: 20px;
+  }
+
+  .header-home {
+    font-size: 40px;
+  }
+
+  .header-sub-text {
+    font-size: 24px;
+  }
+
+  .glass {
+    width: 750px;
+    height: auto;
+  }
+
+  .text-wrapper .static {
+    font-size: 24px;
+  }
+
+  .text-wrapper .dynamic,
+  .text-wrapper .dynamic-list {
+    font-size: 24px;
+  }
+
+  .dynamic li {
+    font-size: 24px;
+  }
+
+  .dynamic-list li {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-home {
+    font-size: 30px;
+  }
+
+  .header-sub-text {
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+  }
+
+  .glass {
+    width: 450px;
+    height: 500px;
+    padding: 65px 10px;
+  }
+
+  .text-wrapper .static {
+    font-size: 16px;
+  }
+
+  .text-wrapper .dynamic,
+  .text-wrapper .dynamic-list {
+    font-size: 16px;
+  }
+
+  .text-wrapper .dynamic-list {
+    line-height: 32px;
+    margin-left: 15px;
+    height: 32px;
+  }
+
+  .dynamic li {
+    font-size: 16px;
+  }
+
+  .dynamic-list li {
+    font-size: 16px;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -105px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header-home {
+    font-size: 20px;
+  }
+
+  .header-sub-text {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+  }
+
+  .glass {
+    width: 340px;
+    height: 400px;
+  }
+
+  .text-wrapper .static {
+    font-size: 12px;
+  }
+
+  .text-wrapper .dynamic,
+  .text-wrapper .dynamic-list {
+    font-size: 12px;
+  }
+
+  .text-wrapper .dynamic-list {
+    line-height: 20px;
+    margin-left: 15px;
+    height: 20px;
+  }
+
+  .dynamic li {
+    font-size: 12px;
+  }
+
+  .dynamic-list li {
+    font-size: 12px;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -60px;
+    }
+  }
+}
