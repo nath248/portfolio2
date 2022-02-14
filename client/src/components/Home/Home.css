@@ -164,9 +164,9 @@
   }
 
   .text-wrapper .dynamic-list {
-    line-height: 32px;
+    line-height: 28px;
     margin-left: 15px;
-    height: 32px;
+    height: 24px;
   }
 
   .dynamic li {
@@ -179,7 +179,7 @@
 
   @keyframes slide {
     100% {
-      top: -105px;
+      top: -90px;
     }
   }
 }
