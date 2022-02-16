@@ -11,6 +11,10 @@
   margin-top: 40px;
 }
 
+.contact:hover {
+  transform: scale(1.03);
+}
+
 .main-contact {
   display: flex;
   align-items: flex-start;

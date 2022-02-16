@@ -17,6 +17,10 @@
   overflow: scroll;
 }
 
+.certs:hover {
+  transform: scale(1.03);
+}
+
 .cert-img {
   width: 450px;
   margin: 8px 0;
