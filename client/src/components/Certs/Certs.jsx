@@ -3,6 +3,11 @@ import "./Certs.css";
 function Certs() {
   return (
     <div className="certs">
+        <img
+          src="https://res.cloudinary.com/dojhf40bp/image/upload/v1645036055/certificate-ga_igzkpu.png"
+          alt="certificate"
+          className="cert-img"
+        />
       <a
         href="https://www.freecodecamp.org/certification/aboutnat248/responsive-web-design"
         target="_blank"
