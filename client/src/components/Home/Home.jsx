@@ -33,7 +33,7 @@ function Home() {
               <span>Binging Great Shows </span>
             </li>
             <li>
-              & <span className="no-padding">Guessing Movie Endings </span>
+              <span className="no-padding">& Guessing Movie Endings </span>
             </li>
           </ul>
         </div>
