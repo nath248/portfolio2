@@ -128,4 +128,11 @@
   .caption-h3 {
     font-size: 12px;
   }
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: none;
+  }
 }
