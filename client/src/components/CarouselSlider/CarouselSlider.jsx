@@ -126,7 +126,7 @@ function CarouselSlider() {
                 site is fully responsive.
               </p>
               <hr />
-              <p>React.js, Node.js, Python, Django</p>
+              <p>React.js, Python, Django</p>
             </Carousel.Caption>
             <div className="hide">
               <h3 className="caption-h3">Situater</h3>
@@ -140,7 +140,7 @@ function CarouselSlider() {
                 site is fully responsive.
               </p>
               <hr />
-              <p>React.js, Node.js, Python, Django</p>
+              <p>React.js, Python, Django</p>
             </div>
           </Carousel.Item>
         </Carousel>
