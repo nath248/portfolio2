@@ -23,7 +23,7 @@ function AboutMe() {
             to be patient and tactful when dealing with difficult tasks. I work
             well in a team setting and I am supportive when working in groups.
           </p>
-          <a href="/files/resume_nathalyherrera.pdf" className="download" download>
+          <a href="/files/2024_resume_NathalyH.pdf" className="download" download>
             Download Resume
           </a>
         </div>
