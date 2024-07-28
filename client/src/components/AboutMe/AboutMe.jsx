@@ -14,16 +14,19 @@ function AboutMe() {
         </div>
         <div className="about-desc">
           <p>
-            I am a passionate and dependable professional with eight years of
-            experience in a high-pressure environment. I've dedicated the past
-            year to learning Software Development and I'm driven to start a new
-            career in this industry due to the flexibility and continuous
-            learning. A few of my personal goals entail traveling and learning
-            about different cultures and gaining new skills. I consider myself
-            to be patient and tactful when dealing with difficult tasks. I work
-            well in a team setting and I am supportive when working in groups.
+            I am a dependable professional with eight years of experience in a
+            high-pressure environment. I've dedicated myself to learning
+            software development and I'm highly motivated to pursue a career in
+            the dynamic field of tech, drawn by continuous learning and adaptability.
+            My personal goals include travel, cultural exploration, and skill
+            development. I possess patience and tact when handling complex
+            tasks.
           </p>
-          <a href="/files/2024_resume_NathalyH.pdf" className="download" download>
+          <a
+            href="/files/2024_resume_NathalyH.pdf"
+            className="download"
+            download
+          >
             Download Resume
           </a>
         </div>
