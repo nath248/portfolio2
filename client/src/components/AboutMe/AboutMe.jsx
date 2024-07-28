@@ -14,7 +14,7 @@ function AboutMe() {
         </div>
         <div className="about-desc">
           <p>
-            I am a passionate and dependable professional with six years of
+            I am a passionate and dependable professional with eight years of
             experience in a high-pressure environment. I've dedicated the past
             year to learning Software Development and I'm driven to start a new
             career in this industry due to the flexibility and continuous
